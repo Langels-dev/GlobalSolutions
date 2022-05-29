@@ -21,8 +21,6 @@
     />
     <!-- Animate -->
     <link rel="stylesheet" type="text/css" href="assets/css/animate.css" />
-    <!-- Tiny Slider  -->
-    <link rel="stylesheet" type="text/css" href="assets/css/tiny-slider.css" />
     <!-- Tailwind css -->
     <link rel="stylesheet" type="text/css" href="assets/css/tailwind.css" />
   </head>
@@ -60,10 +58,10 @@
                   <a class="page-scroll active" href="#hero-area">Home</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#services">Services</a>
+                  <a class="page-scroll" href="#services">products</a>
                 </li>
                 <li class="nav-item">
-                  <a class="page-scroll" href="#feature">feature</a>
+                  <a class="page-scroll" href="#feature">About us</a>
                 </li>
                 <li class="nav-item">
                   <a class="page-scroll" href="#contact">Contact</a>
@@ -78,19 +76,26 @@
     <!-- Header Area wrapper End -->
 
     <!-- Hero Area Start -->
-    <section id="hero-area" class="bg-blue-100 pt-48 pb-10">
-      <div class="container">
+    <section id="hero-area" class="bg-blue-100 pt-20 pb-10">
+      <div class="">
         <div class="flex justify-between">
           <div class="w-full text-center">
             <h2
-              class="text-4xl font-bold leading-snug text-gray-700 mb-10 wow fadeInUp"
+              class="text-4xl font-bold leading-snug text-gray-700 mt-20 wow fadeInUp sm:block md:hidden lg:hidden"
               data-wow-delay="1s"
             >
               Global Solutions <br class="hidden lg:block" />
               BPO
             </h2>
-            <div class="text-center wow fadeInUp" data-wow-delay="1.6s">
-              <img class="img-fluid mx-auto" src="assets/img/hero.svg" alt="" />
+            <div
+              class="text-center wow fadeInUp mt-5 hidden sm:hidden md:block lg:block"
+              data-wow-delay="1.6s"
+            >
+              <img
+                class="img-fluid mx-auto"
+                src="assets/img/header.png"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -111,22 +116,22 @@
         </div>
         <div
           id="btnContainer"
-          class="mb-8 flex flex-wrap justify-center space-x-5"
+          class="mb-8 flex flex-wrap justify-center flex-col space-y-4 sm:flex-col sm:space-x-0 sm:space-y-4 md:flex-col md:space-x-0 md:space-y-4 lg:flex-row lg:space-x-4 lg:space-y-0"
         >
           <button
-            class="btnProduct wow fadeInRight py-2 px-4 transition bg-gray-50 border active:bg-blue-800 font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+            class="btnProduct wow fadeInRight py-2 px-4 duration-300 outline-none transition bg-gray-50 border active:bg-blue-800 active:outline-none font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
             data-id="0"
           >
             Lift Tables
           </button>
           <button
-            class="btnProduct wow fadeInRight py-2 px-4 transition bg-gray-50 border active:bg-blue-800 font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+            class="btnProduct wow fadeInRight py-2 px-4 duration-300 outline-none transition bg-gray-50 border active:bg-blue-800 font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
             data-id="1"
           >
             Pallet Positioners
           </button>
           <button
-            class="btnProduct wow fadeInRight py-2 px-4 transition bg-gray-50 border active:bg-blue-800 font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
+            class="btnProduct wow fadeInRight py-2 px-4 duration-300 outline-none transition bg-gray-50 border active:bg-blue-800 font-medium border-blue-600 hover:text-white text-blue-600 hover:border-blue-700 rounded-lg hover:bg-blue-600 disabled:opacity-50"
             data-id="2"
           >
             Mobile Handling - Pallet Trucks
@@ -246,58 +251,17 @@
               </h2>
 
               <div class="flex flex-wrap">
-                <div class="w-full sm:w-1/2 lg:w-1/2">
+                <div class="sm:w-full md:w-3/4 lg:w-3/4">
                   <div class="m-3">
-                    <div class="icon text-4xl">
-                      <i class="lni lni-layers"></i>
-                    </div>
                     <div class="features-content">
-                      <h4 class="feature-title">Built with TailwindCSS</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veniam tempora quidem vel sint.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full sm:w-1/2 lg:w-1/2">
-                  <div class="m-3">
-                    <div class="icon text-4xl">
-                      <i class="lni lni-gift"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4 class="feature-title">Free to Use</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veniam tempora quidem vel sint.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full sm:w-1/2 lg:w-1/2">
-                  <div class="m-3">
-                    <div class="icon text-4xl">
-                      <i class="lni lni-laptop-phone"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4 class="feature-title">Fully Responsive</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veniam tempora quidem vel sint.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="w-full sm:w-1/2 lg:w-1/2">
-                  <div class="m-3">
-                    <div class="icon text-4xl">
-                      <i class="lni lni-leaf"></i>
-                    </div>
-                    <div class="features-content">
-                      <h4 class="feature-title">Easy to Customize</h4>
-                      <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing
-                        elit. Veniam tempora quidem vel sint.
+                      <p class="leading-8">
+                        Global Solutions BPO LLC is committed to providing
+                        quality, innovative ergonomic products to enhance worker
+                        safety and productivity. Our goal is to exceed our
+                        customer’s expectations in quality, delivery and value
+                        through continuous improvement and customer interaction.
+                        At Global Solutions BPO LLC, We’re Working Harder to
+                        Make Your Life Easier.
                       </p>
                     </div>
                   </div>
@@ -310,7 +274,10 @@
               class="mx-3 lg:mr-0 lg:ml-3 wow fadeInRight"
               data-wow-delay="0.3s"
             >
-              <img src="assets/img/feature/img-1.svg" alt="" />
+              <img
+                src="https://images.unsplash.com/photo-1616401769134-9e7d672874a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=640&q=80"
+                alt=""
+              />
             </div>
           </div>
         </div>
@@ -414,24 +381,28 @@
                   <div class="contact-icon">
                     <i class="lni lni-map-marker"></i>
                   </div>
-                  <p class="pl-3">Skopje, Macedonia</p>
+                  <p class="pl-2">
+                    1825 NW 112TH AVE STE 157 MIAMI FLORIDA 33172
+                  </p>
                 </div>
                 <div class="flex flex-wrap mb-6 items-center">
                   <div class="contact-icon">
                     <i class="lni lni-envelope"></i>
                   </div>
-                  <p class="pl-3">
-                    <a href="#" class="block">email@gmail.com</a>
-                    <a href="#" class="block">tomsaulnier@gmail.com</a>
+                  <p class="pl-2">
+                    <a href="mailto:Globalsolutionbp@gmail.com" class="block"
+                      >Globalsolutionbp@gmail.com</a
+                    >
                   </p>
                 </div>
                 <div class="flex flex-wrap mb-6 items-center">
                   <div class="contact-icon">
                     <i class="lni lni-phone-set"></i>
                   </div>
-                  <p class="pl-3">
-                    <a href="#" class="block">+42 374 5967</a>
-                    <a href="#" class="block">+99 123 5967</a>
+                  <p class="pl-2">
+                    <a href="tel:+1-786-617-3072" class="block"
+                      >+1 (786) 617-3072</a
+                    >
                   </p>
                 </div>
               </div>
@@ -449,7 +420,7 @@
           <div class="w-full">
             <object
               style="border: 0; height: 450px; width: 100%"
-              data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3102.7887109309127!2d-77.44196278417968!3d38.95165507956235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzjCsDU3JzA2LjAiTiA3N8KwMjYnMjMuMiJX!5e0!3m2!1sen!2sbd!4v1545420879707"
+              data="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3048.639732974163!2d-80.3774735615652!3d25.790598206921665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9bec86f119c0d%3A0x1b71a6fbe478be80!2s1825%20NW%20112th%20Ave%2C%20Miami%2C%20FL%2033172%2C%20EE.%20UU.!5e1!3m2!1ses!2sve!4v1653782150703!5m2!1ses!2sve"
             ></object>
           </div>
         </div>
@@ -458,57 +429,21 @@
     <!-- Map Section End -->
 
     <!-- Footer Section Start -->
-    <footer id="footer" class="bg-gray-800 py-16">
+    <footer id="footer" class="bg-gray-800">
       <div class="container">
-        <div class="flex flex-wrap">
-          <div
-            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 wow fadeInUp"
-            data-wow-delay="0.2s"
-          >
-            <div class="mx-3 mb-8">
-              <div class="footer-logo mb-3">
-                <img src="assets/img/logo.svg" alt="" />
-              </div>
-              <p class="text-gray-300">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Quisquam excepturi quasi, ipsam voluptatem.
-              </p>
+        <div class="flex flex-wrap flex-col">
+          <div class="w-full wow fadeInUp" data-wow-delay="0.2s">
+            <div class="mx-3">
+              <img
+                src="assets/img/GLOBAL.png"
+                alt="logo global"
+                class="mx-auto w-full sm:w-2/5"
+              />
             </div>
           </div>
-          <div
-            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 wow fadeInUp"
-            data-wow-delay="0.4s"
-          >
-            <div class="mx-3 mb-8">
-              <h3 class="font-bold text-xl text-white mb-5">Company</h3>
-              <ul>
-                <li><a href="#" class="footer-links">Press Releases</a></li>
-                <li><a href="#" class="footer-links">Mission</a></li>
-                <li><a href="#" class="footer-links">Strategy</a></li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 wow fadeInUp"
-            data-wow-delay="0.6s"
-          >
-            <div class="mx-3 mb-8">
-              <h3 class="font-bold text-xl text-white mb-5">About</h3>
-              <ul>
-                <li><a href="#" class="footer-links">Career</a></li>
-                <li><a href="#" class="footer-links">Team</a></li>
-                <li><a href="#" class="footer-links">Clients</a></li>
-              </ul>
-            </div>
-          </div>
-          <div
-            class="w-full sm:w-1/2 md:w-1/2 lg:w-1/4 wow fadeInUp"
-            data-wow-delay="0.8s"
-          >
-            <div class="mx-3 mb-8">
-              <h3 class="font-bold text-xl text-white mb-5">Find us on</h3>
-
-              <ul class="social-icons flex justify-start">
+          <div class="w-full wow fadeInUp" data-wow-delay="0.8s">
+            <div class="mr-4 mb-8">
+              <ul class="social-icons flex justify-center">
                 <li class="mx-2">
                   <a href="#" class="footer-icon hover:bg-indigo-500">
                     <i class="lni lni-facebook-original" aria-hidden="true"></i>
